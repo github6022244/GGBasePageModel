@@ -1,0 +1,6 @@
+framework module Pods_GGBasePageModel_Tests {
+  umbrella header "Pods-GGBasePageModel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GGBasePageModel (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GGBasePageModel (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GGBasePageModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GGBasePageModel: 4ef957f37f9c327d527f70c943ac1e07476c03b0
+
+PODFILE CHECKSUM: 1edbc0e52883f0c8d07dfeb5423a271f08621cd4
+
+COCOAPODS: 1.7.4
