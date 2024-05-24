@@ -57,6 +57,9 @@
     _origenalData = [NSArray arrayWithArray:self.dataSource];
     
     /**< 判断数据 */
+    // 这里判断一下空
+    array = array ? : @[];
+    
     if ([array isKindOfClass:[NSArray class]]) {
         if (refreshType == GGRefreshType_Refresh) {
             /**< 下拉加载 */

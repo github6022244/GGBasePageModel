@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GGBasePageModel'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'GGBasePageModel 是 iOS 平台，OC 语言下的分页模型基类'
 
 # This description is used to generate tags and improve search results.
